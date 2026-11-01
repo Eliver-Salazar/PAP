@@ -52,6 +52,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BookRepository.cs" />
+    <Compile Include="AuthorRepository.cs" />
+    <Compile Include="CategoryRepository.cs" />
+    <Compile Include="RoleRepository.cs" />
+    <Compile Include="GenreRepository.cs" />
     <Compile Include="RepositoryBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

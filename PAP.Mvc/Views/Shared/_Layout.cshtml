@@ -33,6 +33,42 @@
                     <li>@Html.ActionLink("Cards", "Catalog", "Library", new { vista = "cards" }, new { @class = "nav-link" })</li>
                     <li>@Html.ActionLink("Crear", "Create", "Library", new { area = "" }, new { @class = "nav-link" })</li>
                     <li>@Html.ActionLink("Binder", "PrecioDemo", "Library", new { area = "" }, new { @class = "nav-link" })</li>
+                    @* Acceso a la administración de autores. *@
+                    <li>
+                        @Html.ActionLink(
+                            "Autores",
+                            "Index",
+                            "Authors",
+                            null,
+                            new { @class = "nav-link" })
+                    </li>
+                    @* Acceso a la administración de categorías. *@
+                    <li>
+                        @Html.ActionLink(
+                            "Categorías",
+                            "Index",
+                            "Categories",
+                            null,
+                            new { @class = "nav-link" })
+                    </li>
+                    @* Acceso a la administración de géneros. *@
+                    <li>
+                        @Html.ActionLink(
+                            "Géneros",
+                            "Index",
+                            "Genres",
+                            null,
+                            new { @class = "nav-link" })
+                    </li>
+                    @* Acceso a la administración de roles. *@
+                    <li>
+                        @Html.ActionLink(
+                            "Roles",
+                            "Index",
+                            "Roles",
+                            null,
+                            new { @class = "nav-link" })
+                    </li>
                 </ul>
             </div>
         </div>
