@@ -42,6 +42,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BookManager.cs" />
+    <Compile Include="AuthorManager.cs" />
+    <Compile Include="CategoryManager.cs" />
+    <Compile Include="RoleManager.cs" />
+    <Compile Include="GenreManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
